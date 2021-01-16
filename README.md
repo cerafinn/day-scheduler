@@ -17,6 +17,7 @@ The website is designed to help a user create a daily schedule that is stored lo
 
 ## Website
 https://cerafinn.github.io/day-scheduler/
+![Day Scheduler](./assets/images/day-scheduler.png)
 
 ## Contribution
 Created Javascript and linked to existing code with ❤️ by Andaleeb Farooq
