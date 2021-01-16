@@ -36,3 +36,6 @@ $(".saveBtn").on("click", function() {
 );
 
 //get from local storage
+for (var i=9; i<19; i++) {
+  $(`#hour-${i} .description`).val(localStorage.getItem(`hour-${i}`));
+};
