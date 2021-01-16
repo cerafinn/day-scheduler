@@ -1,5 +1,5 @@
 # Day Scheduler
-Added JS to create a dynamic day scheduler that allows the user to enter and retrieve information from localStorage
+Added JS to create a dynamic day scheduler that allows the user to enter and retrieve information from localStorage. All code completed in JS, including creating timeblocks
 
 <br />
 
