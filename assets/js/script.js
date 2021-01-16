@@ -14,7 +14,7 @@ for (var i=0; i < 10; i++) {
   </div>
   `);
 
-  //check time
+  //check time, if past, present or future
   if (moment().format('H') == i+9) {
     $(`#hour-${i+9}`).addClass("present");
   }
@@ -26,8 +26,13 @@ for (var i=0; i < 10; i++) {
   };
 };
 
-//check time of day (past/present/future)
-
 //save to local storage
+$(".saveBtn").on("click", function() {
+  var key = $(this).parent().attr("id");
+  var value = $(this).siblings(".description").val();
+
+  localStorage.setItem(key, value);
+}
+);
 
 //get from local storage
