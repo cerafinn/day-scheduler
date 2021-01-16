@@ -10,7 +10,7 @@ for (var i=0; i < 10; i++) {
   <div class="row time-block" id="hour-${i+9}">
   <div class="col-1 hour">${displayHour[i]}</div>
   <textarea class="col-10 description" />
-  <button class="col-1 saveBtn">Save</button>
+  <button class="col-1 saveBtn"><img src="./assets/images/save-white.svg"></button>
   </div>
   `);
 
