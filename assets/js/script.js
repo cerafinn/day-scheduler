@@ -32,8 +32,7 @@ $(".saveBtn").on("click", function() {
   var value = $(this).siblings(".description").val();
 
   localStorage.setItem(key, value);
-}
-);
+});
 
 //get from local storage
 for (var i=9; i<19; i++) {
